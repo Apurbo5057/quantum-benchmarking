@@ -1,0 +1,26 @@
+Model,Num Features,PCA Variance,Parameters,Train Time (s),Train Accuracy,Test Accuracy
+Logistic Regression,7,0.503,8,0.0198,1.0,0.6471
+SVM (RBF),7,0.503,209,0.0004,0.9474,0.6176
+SVM (Linear),7,0.503,57,0.002,1.0,0.6471
+Gaussian Naive Bayes,7,0.503,30,0.0,0.9737,0.6176
+Random Forest,7,0.503,1122,0.0703,1.0,0.5882
+Decision Tree,7,0.503,11,0.0,1.0,0.6471
+KNN (k=5),7,0.503,266,0.001,0.9211,0.6176
+Gradient Boosting,7,0.503,1264,0.0433,1.0,0.5294
+XGBoost,7,0.503,196,0.1599,0.9737,0.6765
+LightGBM,7,0.503,1,2.2091,0.7105,0.5882
+MLP,7,0.503,9345,0.0314,1.0,0.5588
+VQC | backend:statevector(Ideal) | opt:COBYLA(maxiter=100) | fm:ZZFeatureMap(reps=1) | ans:EfficientSU2(reps=1) | qubits:7 | depth:45,7,0.503,35,24.3212,0.6053,0.4118
+VQC | backend:statevector(Ideal) | opt:COBYLA(maxiter=100) | fm:ZZFeatureMap(reps=1) | ans:EfficientSU2(reps=2) | qubits:7 | depth:49,7,0.503,49,25.4638,0.6053,0.6176
+VQC | backend:statevector(Ideal) | opt:COBYLA(maxiter=100) | fm:ZZFeatureMap(reps=1) | ans:EfficientSU2(reps=3) | qubits:7 | depth:53,7,0.503,63,27.4733,0.6579,0.4706
+VQC | backend:statevector(Ideal) | opt:COBYLA(maxiter=100) | fm:ZZFeatureMap(reps=1) | ans:EfficientSU2(reps=4) | qubits:7 | depth:57,7,0.503,77,78.4378,0.6842,0.7059
+VQC | backend:statevector(Ideal) | opt:COBYLA(maxiter=100) | fm:ZZFeatureMap(reps=1) | ans:EfficientSU2(reps=5) | qubits:7 | depth:61,7,0.503,91,29.1593,0.7368,0.4706
+VQC | backend:statevector(Ideal) | opt:COBYLA(maxiter=100) | fm:ZZFeatureMap(reps=1) | ans:EfficientSU2(reps=6) | qubits:7 | depth:65,7,0.503,105,30.461,0.7368,0.4412
+VQC | backend:statevector(Ideal) | opt:COBYLA(maxiter=100) | fm:ZZFeatureMap(reps=1) | ans:EfficientSU2(reps=7) | qubits:7 | depth:69,7,0.503,119,36.4749,0.7368,0.5
+VQC | backend:fake_jakarta | opt:COBYLA(maxiter=100) )| fm:ZZFeatureMap(reps=1) | ans:EfficientSU2(reps=1) | qubits:7 | depth:45,7,0.503,35,27.6716,0.4737,0.5
+VQC | backend:fake_jakarta | opt:COBYLA(maxiter=100) )| fm:ZZFeatureMap(reps=1) | ans:EfficientSU2(reps=2) | qubits:7 | depth:49,7,0.503,49,158.6394,0.4737,0.5
+VQC | backend:fake_jakarta | opt:COBYLA(maxiter=100) )| fm:ZZFeatureMap(reps=1) | ans:EfficientSU2(reps=3) | qubits:7 | depth:53,7,0.503,63,188.0585,0.6842,0.4706
+VQC | backend:fake_jakarta | opt:COBYLA(maxiter=100) )| fm:ZZFeatureMap(reps=1) | ans:EfficientSU2(reps=4) | qubits:7 | depth:57,7,0.503,77,202.7997,0.7105,0.5294
+VQC | backend:fake_jakarta | opt:COBYLA(maxiter=100) )| fm:ZZFeatureMap(reps=1) | ans:EfficientSU2(reps=5) | qubits:7 | depth:61,7,0.503,91,160.9159,0.7632,0.5294
+VQC | backend:fake_jakarta | opt:COBYLA(maxiter=100) )| fm:ZZFeatureMap(reps=1) | ans:EfficientSU2(reps=6) | qubits:7 | depth:65,7,0.503,105,67.3026,0.6053,0.5294
+VQC | backend:fake_jakarta | opt:COBYLA(maxiter=100) )| fm:ZZFeatureMap(reps=1) | ans:EfficientSU2(reps=7) | qubits:7 | depth:69,7,0.503,119,69.5616,0.7368,0.5294

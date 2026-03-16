@@ -1,0 +1,5 @@
+Model,Num Features,PCA Variance,Parameters,Circuit Depth,Train Time (s),Train Accuracy,Test Accuracy
+VQC | backend:statevector | opt:COBYLA(maxiter=N/A) | fm:ZZFeatureMap(reps=N/A) | ans:EfficientSU2(reps=N/A) | qubits:7 | depth:57,7,0.503,77,57,39.2263,0.7105,0.5294
+VQC | backend:fake_jakarta | opt:COBYLA(maxiter=N/A) | fm:ZZFeatureMap(reps=N/A) | ans:EfficientSU2(reps=N/A) | qubits:7 | depth:57,7,0.503,77,57,43.7768,0.6053,0.4118
+VQC | backend:fake_jakarta | opt:COBYLA(maxiter=N/A) | fm:ZZFeatureMap(reps=N/A) | ans:EfficientSU2(reps=N/A) | qubits:7 | depth:57,7,0.503,77,57,42.4853,0.7368,0.4118
+VQC | backend:fake_jakarta | opt:COBYLA(maxiter=N/A) | fm:ZZFeatureMap(reps=N/A) | ans:EfficientSU2(reps=N/A) | qubits:7 | depth:61,7,0.503,91,61,44.1917,0.6316,0.5882
